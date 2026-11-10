@@ -1,0 +1,422 @@
+{
+    "slug": "awesome-nfe",
+    "campaign": "awesome-nfe",
+    "linkPrefix": "nfe",
+    "title": "Awesome NF-e",
+    "description": "Nota fiscal eletrônica para quem integra: portais oficiais, bibliotecas por linguagem, APIs de emissão e servidores MCP.",
+    "intro": "Para quem precisa emitir, receber ou conferir nota fiscal dentro de um sistema. Começa pelos portais onde estão os manuais e os schemas, passa pelas bibliotecas abertas de cada linguagem e termina nas APIs que emitem por você. Cada endereço foi aberto antes de entrar.",
+    "glossary": "NF-e, NFC-e, NFS-e, CT-e, MDF-e, BP-e, SEFAZ, SVRS, SPED, EFD, ECD, ECF, DANFE, ERP, Simples Nacional, eSocial, ACBr and NFePHP are proper names or acronyms; keep them.",
+    "topics": [
+        "nfe",
+        "nfce",
+        "nfse",
+        "nota-fiscal",
+        "sefaz",
+        "sped",
+        "fiscal"
+    ],
+    "categories": [
+        {
+            "id": "oficial",
+            "title": "Portais oficiais",
+            "description": "Onde estão os manuais, os schemas e as notas técnicas de cada documento.",
+            "items": [
+                {
+                    "name": "Portal Nacional da NF-e",
+                    "url": "https://www.nfe.fazenda.gov.br/portal/principal.aspx",
+                    "description": "Manuais de orientação, schemas XML, notas técnicas e a consulta de NF-e.",
+                    "tags": [
+                        "oficial",
+                        "gratis"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "NFS-e Nacional",
+                    "url": "https://www.gov.br/nfse/pt-br",
+                    "description": "O padrão nacional da nota fiscal de serviço, com o emissor público e o ambiente de dados.",
+                    "tags": [
+                        "oficial",
+                        "gratis"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "NFS-e Nacional: documentação técnica",
+                    "url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica",
+                    "description": "Os manuais, leiautes e APIs da NFS-e Nacional para quem integra.",
+                    "tags": [
+                        "oficial",
+                        "gratis",
+                        "api"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "Portal da NFC-e",
+                    "url": "https://dfe-portal.svrs.rs.gov.br/Nfce",
+                    "description": "Documentação da nota fiscal de consumidor no portal da SVRS, usado por vários estados.",
+                    "tags": [
+                        "oficial",
+                        "gratis"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "Portal Nacional do CT-e",
+                    "url": "https://www.cte.fazenda.gov.br/portal/",
+                    "description": "Manuais e schemas do conhecimento de transporte eletrônico.",
+                    "tags": [
+                        "oficial",
+                        "gratis"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "Portal do MDF-e",
+                    "url": "https://dfe-portal.svrs.rs.gov.br/Mdfe",
+                    "description": "Documentação do manifesto eletrônico de documentos fiscais.",
+                    "tags": [
+                        "oficial",
+                        "gratis"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "Portal do SPED",
+                    "url": "http://sped.rfb.gov.br/",
+                    "description": "O Sistema Público de Escrituração Digital da Receita Federal: EFD, ECD, ECF e programas validadores.",
+                    "tags": [
+                        "oficial",
+                        "gratis"
+                    ],
+                    "added": "2026-11-10"
+                }
+            ]
+        },
+        {
+            "id": "php",
+            "title": "Bibliotecas PHP",
+            "description": "Abertas, com atividade no repositório em 2026.",
+            "items": [
+                {
+                    "name": "sped-nfe",
+                    "url": "https://github.com/nfephp-org/sped-nfe",
+                    "description": "A biblioteca mais usada para gerar, assinar e transmitir NF-e e NFC-e às SEFAZ.",
+                    "tags": [
+                        "codigo-aberto"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "sped-common",
+                    "url": "https://github.com/nfephp-org/sped-common",
+                    "description": "As classes comuns do NFePHP para NF-e, CT-e e MDF-e: certificado, assinatura e comunicação.",
+                    "tags": [
+                        "codigo-aberto"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "nfse-php",
+                    "url": "https://github.com/nfse-nacional/nfse-php",
+                    "description": "SDK PHP para a NFS-e Nacional.",
+                    "tags": [
+                        "codigo-aberto",
+                        "sdk"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "php-nfse",
+                    "url": "https://github.com/lucas-simoes/php-nfse",
+                    "description": "Geração e comunicação de NFS-e com as prefeituras.",
+                    "tags": [
+                        "codigo-aberto"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "Cliente PHP da NFE.io",
+                    "url": "https://github.com/nfe/client-php",
+                    "description": "SDK PHP da NFE.io para emitir NFS-e, sem dependências.",
+                    "tags": [
+                        "codigo-aberto",
+                        "sdk"
+                    ],
+                    "added": "2026-11-10"
+                }
+            ]
+        },
+        {
+            "id": "java",
+            "title": "Bibliotecas Java",
+            "description": "Abertas, com atividade no repositório em 2026.",
+            "items": [
+                {
+                    "name": "Java_NFe",
+                    "url": "https://github.com/Samuel-Oliveira/Java_NFe",
+                    "description": "NF-e e NFC-e em Java, com consulta, envio, cancelamento e eventos.",
+                    "tags": [
+                        "codigo-aberto"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "wmixvideo/nfe",
+                    "url": "https://github.com/wmixvideo/nfe",
+                    "description": "Nota fiscal eletrônica em Java, com o modelo de dados completo.",
+                    "tags": [
+                        "codigo-aberto"
+                    ],
+                    "added": "2026-11-10"
+                }
+            ]
+        },
+        {
+            "id": "dotnet",
+            "title": "Bibliotecas .NET",
+            "description": "Abertas, com atividade no repositório em 2026.",
+            "items": [
+                {
+                    "name": "DFe.NET",
+                    "url": "https://github.com/ZeusAutomacao/DFe.NET",
+                    "description": "Geração de NF-e e NFC-e e consumo dos serviços da SEFAZ em C#.",
+                    "tags": [
+                        "codigo-aberto"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "ZeusFiscal",
+                    "url": "https://github.com/Hercules-NET/ZeusFiscal",
+                    "description": "Emissão e impressão de NF-e, NFC-e, MDF-e e CT-e em C#.",
+                    "tags": [
+                        "codigo-aberto"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "Unimake DFe",
+                    "url": "https://github.com/Unimake/DFe",
+                    "description": "DLL para integrar ERPs aos documentos fiscais eletrônicos.",
+                    "tags": [
+                        "codigo-aberto"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "OpenAC.Net.NFSe",
+                    "url": "https://github.com/OpenAC-Net/OpenAC.Net.NFSe",
+                    "description": "Emissão e transmissão de NFS-e para vários padrões municipais.",
+                    "tags": [
+                        "codigo-aberto"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "OpenAC.Net.NFSe.Nacional",
+                    "url": "https://github.com/OpenAC-Net/OpenAC.Net.NFSe.Nacional",
+                    "description": "Emissão de NFS-e no padrão nacional em C#.",
+                    "tags": [
+                        "codigo-aberto"
+                    ],
+                    "added": "2026-11-10"
+                }
+            ]
+        },
+        {
+            "id": "python",
+            "title": "Bibliotecas Python",
+            "description": "Abertas, com atividade no repositório em 2026.",
+            "items": [
+                {
+                    "name": "PyNFe",
+                    "url": "https://github.com/TadaSoftware/PyNFe",
+                    "description": "Interface com o webservice da NF-e e da NFC-e em Python.",
+                    "tags": [
+                        "codigo-aberto"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "nfelib",
+                    "url": "https://github.com/akretion/nfelib",
+                    "description": "Bindings Python para ler e gerar o XML de NF-e, NFS-e Nacional, CT-e, MDF-e e BP-e.",
+                    "tags": [
+                        "codigo-aberto"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "Localização brasileira do Odoo",
+                    "url": "https://github.com/OCA/l10n-brazil",
+                    "description": "Os módulos fiscais brasileiros do Odoo, inclusive NF-e.",
+                    "tags": [
+                        "codigo-aberto"
+                    ],
+                    "added": "2026-11-10"
+                }
+            ]
+        },
+        {
+            "id": "javascript",
+            "title": "Bibliotecas JavaScript e TypeScript",
+            "description": "Abertas, com atividade no repositório em 2026.",
+            "items": [
+                {
+                    "name": "NFeWizard",
+                    "url": "https://github.com/nfewizard-org/nfewizard-io",
+                    "description": "Biblioteca Node.js para os serviços da SEFAZ: emissão, consulta, eventos e DANFE.",
+                    "tags": [
+                        "codigo-aberto"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "node-sped-nfe",
+                    "url": "https://github.com/kalmonv/node-sped-nfe",
+                    "description": "Emissão e comunicação de NF-e com as SEFAZ em Node.js.",
+                    "tags": [
+                        "codigo-aberto"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "Cliente Node.js da NFE.io",
+                    "url": "https://github.com/nfe/client-nodejs",
+                    "description": "SDK TypeScript da NFE.io para emitir NFS-e, sem dependências.",
+                    "tags": [
+                        "codigo-aberto",
+                        "sdk"
+                    ],
+                    "added": "2026-11-10"
+                }
+            ]
+        },
+        {
+            "id": "pascal",
+            "title": "Delphi e Lazarus",
+            "description": "Componentes de automação comercial para Delphi e Lazarus.",
+            "items": [
+                {
+                    "name": "Projeto ACBr",
+                    "url": "https://projetoacbr.com.br/",
+                    "description": "Componentes para automação comercial em Delphi e Lazarus, com NF-e, NFC-e, NFS-e, CT-e e SPED.",
+                    "tags": [
+                        "codigo-aberto"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "ACBr no GitHub",
+                    "url": "https://github.com/frones/ACBr",
+                    "description": "Espelho do repositório SVN do Projeto ACBr.",
+                    "tags": [
+                        "codigo-aberto"
+                    ],
+                    "added": "2026-11-10"
+                }
+            ]
+        },
+        {
+            "id": "apis",
+            "title": "APIs de emissão",
+            "description": "Serviços que emitem por você. Em ordem alfabética.",
+            "items": [
+                {
+                    "name": "eNotas",
+                    "url": "https://enotas.com.br/",
+                    "description": "Emissão automática de NFS-e e NF-e para quem vende online.",
+                    "tags": [
+                        "pago",
+                        "api"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "Focus NFe",
+                    "url": "https://doc.focusnfe.com.br/reference/introducao",
+                    "description": "API para NF-e, NFC-e, NFS-e, CT-e e MDF-e.",
+                    "tags": [
+                        "pago",
+                        "api"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "NFE.io",
+                    "url": "https://nfe.io/docs/",
+                    "description": "API para emissão de NFS-e e NF-e e consulta de dados fiscais.",
+                    "tags": [
+                        "pago",
+                        "api"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "PlugNotas",
+                    "url": "https://docs.plugnotas.com.br/",
+                    "description": "API da Tecnospeed para NF-e, NFC-e e NFS-e em milhares de municípios.",
+                    "tags": [
+                        "pago",
+                        "api"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "Qive",
+                    "url": "https://qive.com.br/",
+                    "description": "Captura e gestão das notas fiscais recebidas, antes chamada Arquivei.",
+                    "tags": [
+                        "pago",
+                        "api"
+                    ],
+                    "added": "2026-11-10"
+                },
+                {
+                    "name": "Webmania",
+                    "url": "https://webmaniabr.com/docs/rest-api-nfe/",
+                    "description": "API REST para NF-e, NFC-e e NFS-e.",
+                    "tags": [
+                        "pago",
+                        "api"
+                    ],
+                    "added": "2026-11-10"
+                }
+            ]
+        },
+        {
+            "id": "mcp",
+            "title": "Servidores MCP",
+            "description": "Para o agente de IA consultar e conferir documentos fiscais.",
+            "items": [
+                {
+                    "name": "mcp-fiscal-brasil",
+                    "url": "https://github.com/DeHor-Labs/mcp-fiscal-brasil",
+                    "description": "Servidor MCP fiscal: CNPJ, NF-e, NFS-e, CT-e, SPED, eSocial e Simples Nacional.",
+                    "tags": [
+                        "codigo-aberto"
+                    ],
+                    "added": "2026-11-10"
+                }
+            ]
+        },
+        {
+            "id": "outras-listas",
+            "title": "Outras listas",
+            "description": "Abertas, com atividade no repositório em 2026.",
+            "items": [
+                {
+                    "name": "Awesome MCP Brasil",
+                    "url": "https://github.com/ciro-maciel/awesome-mcp-brasil",
+                    "description": "Servidores MCP para serviços brasileiros, inclusive fiscais.",
+                    "tags": [
+                        "gratis"
+                    ],
+                    "added": "2026-11-10"
+                }
+            ]
+        }
+    ]
+}
