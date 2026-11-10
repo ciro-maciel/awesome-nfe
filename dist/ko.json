@@ -1,0 +1,471 @@
+{
+  "slug": "awesome-nfe",
+  "language": "ko",
+  "title": "Awesome NF-e",
+  "description": "브라질 전자 세금계산서(NF-e)를 연동하는 사람을 위한 자료: 공식 포털, 언어별 라이브러리, 발행 API, MCP 서버.",
+  "updated": "2026-11-10",
+  "categories": [
+    {
+      "id": "oficial",
+      "title": "공식 포털",
+      "items": [
+        {
+          "name": "Portal Nacional da NF-e",
+          "url": "https://www.nfe.fazenda.gov.br/portal/principal.aspx",
+          "link": "https://go.mymarketing.click/nfe-portal-nacional-da-nf-e",
+          "description": "지침 매뉴얼, XML 스키마, 기술 노트, NF-e 조회.",
+          "tags": [
+            "oficial",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "NFS-e Nacional",
+          "url": "https://www.gov.br/nfse/pt-br",
+          "link": "https://go.mymarketing.click/nfe-nfs-e-nacional",
+          "description": "공공 발급기관과 데이터 환경을 갖춘 전국 서비스 세금계산서(NFS-e) 표준.",
+          "tags": [
+            "oficial",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "NFS-e Nacional: documentação técnica",
+          "url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica",
+          "link": "https://go.mymarketing.click/nfe-nfs-e-nacional-documentacao-tecnica",
+          "description": "통합 개발자를 위한 NFS-e 국가 표준의 매뉴얼, 레이아웃, API.",
+          "tags": [
+            "oficial",
+            "gratis",
+            "api"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Portal da NFC-e",
+          "url": "https://dfe-portal.svrs.rs.gov.br/Nfce",
+          "link": "https://go.mymarketing.click/nfe-portal-da-nfc-e",
+          "description": "SVRS 포털의 소비자 영수증(NFC-e) 문서. 여러 주에서 사용.",
+          "tags": [
+            "oficial",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Portal Nacional do CT-e",
+          "url": "https://www.cte.fazenda.gov.br/portal/",
+          "link": "https://go.mymarketing.click/nfe-portal-nacional-do-ct-e",
+          "description": "전자 운송 증서(CT-e)의 매뉴얼과 스키마.",
+          "tags": [
+            "oficial",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Portal do MDF-e",
+          "url": "https://dfe-portal.svrs.rs.gov.br/Mdfe",
+          "link": "https://go.mymarketing.click/nfe-portal-do-mdf-e",
+          "description": "전자 세무 문서 매니페스트(MDF-e) 문서.",
+          "tags": [
+            "oficial",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Portal do SPED",
+          "url": "http://sped.rfb.gov.br/",
+          "link": "https://go.mymarketing.click/nfe-portal-do-sped",
+          "description": "연방 세무청의 공공 전자 기장 시스템: EFD, ECD, ECF 및 검증 프로그램.",
+          "tags": [
+            "oficial",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "php",
+      "title": "PHP 라이브러리",
+      "items": [
+        {
+          "name": "sped-nfe",
+          "url": "https://github.com/nfephp-org/sped-nfe",
+          "link": "https://go.mymarketing.click/nfe-sped-nfe",
+          "description": "NF-e 및 NFC-e를 생성, 서명, SEFAZ로 전송하는 데 가장 많이 쓰는 라이브러리.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "sped-common",
+          "url": "https://github.com/nfephp-org/sped-common",
+          "link": "https://go.mymarketing.click/nfe-sped-common",
+          "description": "NF-e, CT-e, MDF-e용 NFePHP 공통 클래스: 인증서, 서명, 통신.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "nfse-php",
+          "url": "https://github.com/nfse-nacional/nfse-php",
+          "link": "https://go.mymarketing.click/nfe-nfse-php",
+          "description": "NFS-e 국가 표준용 PHP SDK.",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "php-nfse",
+          "url": "https://github.com/lucas-simoes/php-nfse",
+          "link": "https://go.mymarketing.click/nfe-php-nfse",
+          "description": "시청과 연동하여 NFS-e를 생성하고 통신.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Cliente PHP da NFE.io",
+          "url": "https://github.com/nfe/client-php",
+          "link": "https://go.mymarketing.click/nfe-cliente-php-da-nfe-io",
+          "description": "NFE.io PHP SDK로 NFS-e 발행, 의존성 없음.",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "java",
+      "title": "Java 라이브러리",
+      "items": [
+        {
+          "name": "Java_NFe",
+          "url": "https://github.com/Samuel-Oliveira/Java_NFe",
+          "link": "https://go.mymarketing.click/nfe-java-nfe",
+          "description": "Java로 NF-e 및 NFC-e 조회, 전송, 취소, 이벤트 처리.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "wmixvideo/nfe",
+          "url": "https://github.com/wmixvideo/nfe",
+          "link": "https://go.mymarketing.click/nfe-wmixvideo-nfe",
+          "description": "Java용 전자 세금계산서, 전체 데이터 모델 포함.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "dotnet",
+      "title": ".NET 라이브러리",
+      "items": [
+        {
+          "name": "DFe.NET",
+          "url": "https://github.com/ZeusAutomacao/DFe.NET",
+          "link": "https://go.mymarketing.click/nfe-dfe-net",
+          "description": "C#으로 NF-e, NFC-e 생성 및 SEFAZ 서비스 호출.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "ZeusFiscal",
+          "url": "https://github.com/Hercules-NET/ZeusFiscal",
+          "link": "https://go.mymarketing.click/nfe-zeusfiscal",
+          "description": "C#으로 NF-e, NFC-e, MDF-e, CT-e 발행 및 인쇄.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Unimake DFe",
+          "url": "https://github.com/Unimake/DFe",
+          "link": "https://go.mymarketing.click/nfe-unimake-dfe",
+          "description": "ERP를 전자 세무 문서와 연동하기 위한 DLL.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "OpenAC.Net.NFSe",
+          "url": "https://github.com/OpenAC-Net/OpenAC.Net.NFSe",
+          "link": "https://go.mymarketing.click/nfe-openac-net-nfse",
+          "description": "여러 시 표준에 맞춘 NFS-e 발행 및 전송.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "OpenAC.Net.NFSe.Nacional",
+          "url": "https://github.com/OpenAC-Net/OpenAC.Net.NFSe.Nacional",
+          "link": "https://go.mymarketing.click/nfe-openac-net-nfse-nacional",
+          "description": "C#으로 NFS-e 국가 표준 발행.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "python",
+      "title": "Python 라이브러리",
+      "items": [
+        {
+          "name": "PyNFe",
+          "url": "https://github.com/TadaSoftware/PyNFe",
+          "link": "https://go.mymarketing.click/nfe-pynfe",
+          "description": "Python으로 NF-e 및 NFC-e 웹서비스 연동.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "nfelib",
+          "url": "https://github.com/akretion/nfelib",
+          "link": "https://go.mymarketing.click/nfe-nfelib",
+          "description": "NF-e, NFS-e 국가 표준, CT-e, MDF-e, BP-e의 XML을 읽고 생성하는 Python 바인딩.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Localização brasileira do Odoo",
+          "url": "https://github.com/OCA/l10n-brazil",
+          "link": "https://go.mymarketing.click/nfe-localizacao-brasileira-do-odoo",
+          "description": "NF-e를 포함한 Odoo의 브라질 세무 모듈.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "javascript",
+      "title": "JavaScript 및 TypeScript 라이브러리",
+      "items": [
+        {
+          "name": "NFeWizard",
+          "url": "https://github.com/nfewizard-org/nfewizard-io",
+          "link": "https://go.mymarketing.click/nfe-nfewizard",
+          "description": "SEFAZ 서비스용 Node.js 라이브러리: 발행, 조회, 이벤트, DANFE.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "node-sped-nfe",
+          "url": "https://github.com/kalmonv/node-sped-nfe",
+          "link": "https://go.mymarketing.click/nfe-node-sped-nfe",
+          "description": "Node.js로 SEFAZ와 NF-e 발행 및 통신.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Cliente Node.js da NFE.io",
+          "url": "https://github.com/nfe/client-nodejs",
+          "link": "https://go.mymarketing.click/nfe-cliente-node-js-da-nfe-io",
+          "description": "NFE.io TypeScript SDK로 NFS-e 발행, 의존성 없음.",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "pascal",
+      "title": "Delphi 및 Lazarus",
+      "items": [
+        {
+          "name": "Projeto ACBr",
+          "url": "https://projetoacbr.com.br/",
+          "link": "https://go.mymarketing.click/nfe-projeto-acbr",
+          "description": "Delphi 및 Lazarus용 상업 자동화 컴포넌트, NF-e, NFC-e, NFS-e, CT-e, SPED 지원.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "ACBr no GitHub",
+          "url": "https://github.com/frones/ACBr",
+          "link": "https://go.mymarketing.click/nfe-acbr-no-github",
+          "description": "ACBr 프로젝트 SVN 저장소의 미러.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "apis",
+      "title": "발행 API",
+      "items": [
+        {
+          "name": "eNotas",
+          "url": "https://enotas.com.br/",
+          "link": "https://go.mymarketing.click/nfe-enotas",
+          "description": "온라인으로 판매하는 사람을 위한 NFS-e 및 NF-e 자동 발행.",
+          "tags": [
+            "pago",
+            "api"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Focus NFe",
+          "url": "https://doc.focusnfe.com.br/reference/introducao",
+          "link": "https://go.mymarketing.click/nfe-focus-nfe",
+          "description": "NF-e, NFC-e, NFS-e, CT-e 및 MDF-e용 API.",
+          "tags": [
+            "pago",
+            "api"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "NFE.io",
+          "url": "https://nfe.io/docs/",
+          "link": "https://go.mymarketing.click/nfe-nfe-io",
+          "description": "NFS-e 및 NF-e 발행과 세무 데이터 조회를 위한 API.",
+          "tags": [
+            "pago",
+            "api"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "PlugNotas",
+          "url": "https://docs.plugnotas.com.br/",
+          "link": "https://go.mymarketing.click/nfe-plugnotas",
+          "description": "Tecnospeed의 API, 수천 개 지자체의 NF-e, NFC-e 및 NFS-e 지원.",
+          "tags": [
+            "pago",
+            "api"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Qive",
+          "url": "https://qive.com.br/",
+          "link": "https://go.mymarketing.click/nfe-qive",
+          "description": "받은 전자세금계산서(노타 피스칼)를 수집하고 관리합니다. 이전 이름은 Arquivei.",
+          "tags": [
+            "pago",
+            "api"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Webmania",
+          "url": "https://webmaniabr.com/docs/rest-api-nfe/",
+          "link": "https://go.mymarketing.click/nfe-webmania",
+          "description": "NF-e, NFC-e, NFS-e용 REST API.",
+          "tags": [
+            "pago",
+            "api"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "title": "MCP 서버",
+      "items": [
+        {
+          "name": "mcp-fiscal-brasil",
+          "url": "https://github.com/DeHor-Labs/mcp-fiscal-brasil",
+          "link": "https://go.mymarketing.click/nfe-mcp-fiscal-brasil",
+          "description": "세무 MCP 서버: CNPJ, NF-e, NFS-e, CT-e, SPED, eSocial 및 Simples Nacional.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "outras-listas",
+      "title": "다른 목록",
+      "items": [
+        {
+          "name": "Awesome MCP Brasil",
+          "url": "https://github.com/ciro-maciel/awesome-mcp-brasil",
+          "link": "https://go.mymarketing.click/nfe-awesome-mcp-brasil",
+          "description": "세무 서비스를 포함한 브라질 서비스용 MCP 서버.",
+          "tags": [
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    }
+  ]
+}

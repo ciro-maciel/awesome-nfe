@@ -1,0 +1,471 @@
+{
+  "slug": "awesome-nfe",
+  "language": "ru",
+  "title": "Awesome NF-e",
+  "description": "Электронная налоговая накладная для разработчиков: официальные порталы, библиотеки по языкам, API для выпуска и серверы MCP.",
+  "updated": "2026-11-10",
+  "categories": [
+    {
+      "id": "oficial",
+      "title": "Официальные порталы",
+      "items": [
+        {
+          "name": "Portal Nacional da NF-e",
+          "url": "https://www.nfe.fazenda.gov.br/portal/principal.aspx",
+          "link": "https://go.mymarketing.click/nfe-portal-nacional-da-nf-e",
+          "description": "Руководства, схемы XML, технические заметки и справочник по NF-e.",
+          "tags": [
+            "oficial",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "NFS-e Nacional",
+          "url": "https://www.gov.br/nfse/pt-br",
+          "link": "https://go.mymarketing.click/nfe-nfs-e-nacional",
+          "description": "Национальный стандарт налоговой накладной на услуги с государственным эмитентом и средой данных.",
+          "tags": [
+            "oficial",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "NFS-e Nacional: documentação técnica",
+          "url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica",
+          "link": "https://go.mymarketing.click/nfe-nfs-e-nacional-documentacao-tecnica",
+          "description": "Руководства, леаутs и API NFS-e Nacional для интеграторов.",
+          "tags": [
+            "oficial",
+            "gratis",
+            "api"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Portal da NFC-e",
+          "url": "https://dfe-portal.svrs.rs.gov.br/Nfce",
+          "link": "https://go.mymarketing.click/nfe-portal-da-nfc-e",
+          "description": "Документация по налоговому чеку для потребителя на портале SVRS, используемому несколькими штатами.",
+          "tags": [
+            "oficial",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Portal Nacional do CT-e",
+          "url": "https://www.cte.fazenda.gov.br/portal/",
+          "link": "https://go.mymarketing.click/nfe-portal-nacional-do-ct-e",
+          "description": "Руководства и схемы электронной накладной на перевозку (CT-e).",
+          "tags": [
+            "oficial",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Portal do MDF-e",
+          "url": "https://dfe-portal.svrs.rs.gov.br/Mdfe",
+          "link": "https://go.mymarketing.click/nfe-portal-do-mdf-e",
+          "description": "Документация по электронному манифесту фискальных документов.",
+          "tags": [
+            "oficial",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Portal do SPED",
+          "url": "http://sped.rfb.gov.br/",
+          "link": "https://go.mymarketing.click/nfe-portal-do-sped",
+          "description": "Национальная система цифровой бухгалтерии Федеральной налоговой службы: EFD, ECD, ECF и программы проверки.",
+          "tags": [
+            "oficial",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "php",
+      "title": "Библиотеки PHP",
+      "items": [
+        {
+          "name": "sped-nfe",
+          "url": "https://github.com/nfephp-org/sped-nfe",
+          "link": "https://go.mymarketing.click/nfe-sped-nfe",
+          "description": "Самая популярная библиотека для генерации, подписи и передачи NF-e и NFC-e в SEFAZ.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "sped-common",
+          "url": "https://github.com/nfephp-org/sped-common",
+          "link": "https://go.mymarketing.click/nfe-sped-common",
+          "description": "Общие классы NFePHP для NF-e, CT-e и MDF-e: сертификат, подпись и обмен данными.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "nfse-php",
+          "url": "https://github.com/nfse-nacional/nfse-php",
+          "link": "https://go.mymarketing.click/nfe-nfse-php",
+          "description": "SDK PHP для NFS-e Nacional.",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "php-nfse",
+          "url": "https://github.com/lucas-simoes/php-nfse",
+          "link": "https://go.mymarketing.click/nfe-php-nfse",
+          "description": "Генерация и обмен NFS-e с муниципалитетами.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Cliente PHP da NFE.io",
+          "url": "https://github.com/nfe/client-php",
+          "link": "https://go.mymarketing.click/nfe-cliente-php-da-nfe-io",
+          "description": "SDK PHP от NFE.io для выставления NFS-e, без зависимостей.",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "java",
+      "title": "Библиотеки Java",
+      "items": [
+        {
+          "name": "Java_NFe",
+          "url": "https://github.com/Samuel-Oliveira/Java_NFe",
+          "link": "https://go.mymarketing.click/nfe-java-nfe",
+          "description": "NF-e и NFC-e на Java, с запросами, отправкой, отменой и событиями.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "wmixvideo/nfe",
+          "url": "https://github.com/wmixvideo/nfe",
+          "link": "https://go.mymarketing.click/nfe-wmixvideo-nfe",
+          "description": "Электронная налоговая накладная на Java, с полной моделью данных.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "dotnet",
+      "title": "Библиотеки .NET",
+      "items": [
+        {
+          "name": "DFe.NET",
+          "url": "https://github.com/ZeusAutomacao/DFe.NET",
+          "link": "https://go.mymarketing.click/nfe-dfe-net",
+          "description": "Генерация NF-e и NFC-e и работа с сервисами SEFAZ на C#.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "ZeusFiscal",
+          "url": "https://github.com/Hercules-NET/ZeusFiscal",
+          "link": "https://go.mymarketing.click/nfe-zeusfiscal",
+          "description": "Выпуск и печать NF-e, NFC-e, MDF-e и CT-e на C#.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Unimake DFe",
+          "url": "https://github.com/Unimake/DFe",
+          "link": "https://go.mymarketing.click/nfe-unimake-dfe",
+          "description": "DLL для интеграции ERP с электронными фискальными документами.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "OpenAC.Net.NFSe",
+          "url": "https://github.com/OpenAC-Net/OpenAC.Net.NFSe",
+          "link": "https://go.mymarketing.click/nfe-openac-net-nfse",
+          "description": "Выпуск и передача NFS-e по разным муниципальным стандартам.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "OpenAC.Net.NFSe.Nacional",
+          "url": "https://github.com/OpenAC-Net/OpenAC.Net.NFSe.Nacional",
+          "link": "https://go.mymarketing.click/nfe-openac-net-nfse-nacional",
+          "description": "Выпуск NFS-e по национальному стандарту на C#.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "python",
+      "title": "Библиотеки Python",
+      "items": [
+        {
+          "name": "PyNFe",
+          "url": "https://github.com/TadaSoftware/PyNFe",
+          "link": "https://go.mymarketing.click/nfe-pynfe",
+          "description": "Интерфейс к веб-сервису NF-e и NFC-e на Python.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "nfelib",
+          "url": "https://github.com/akretion/nfelib",
+          "link": "https://go.mymarketing.click/nfe-nfelib",
+          "description": "Привязки Python для чтения и генерации XML NF-e, NFS-e Nacional, CT-e, MDF-e и BP-e.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Localização brasileira do Odoo",
+          "url": "https://github.com/OCA/l10n-brazil",
+          "link": "https://go.mymarketing.click/nfe-localizacao-brasileira-do-odoo",
+          "description": "Бразильские налоговые модули Odoo, включая NF-e.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "javascript",
+      "title": "Библиотеки JavaScript и TypeScript",
+      "items": [
+        {
+          "name": "NFeWizard",
+          "url": "https://github.com/nfewizard-org/nfewizard-io",
+          "link": "https://go.mymarketing.click/nfe-nfewizard",
+          "description": "Библиотека Node.js для сервисов SEFAZ: выпуск, запросы, события и DANFE.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "node-sped-nfe",
+          "url": "https://github.com/kalmonv/node-sped-nfe",
+          "link": "https://go.mymarketing.click/nfe-node-sped-nfe",
+          "description": "Выпуск и обмен NF-e с SEFAZ на Node.js.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Cliente Node.js da NFE.io",
+          "url": "https://github.com/nfe/client-nodejs",
+          "link": "https://go.mymarketing.click/nfe-cliente-node-js-da-nfe-io",
+          "description": "SDK TypeScript от NFE.io для выставления NFS-e, без зависимостей.",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "pascal",
+      "title": "Delphi и Lazarus",
+      "items": [
+        {
+          "name": "Projeto ACBr",
+          "url": "https://projetoacbr.com.br/",
+          "link": "https://go.mymarketing.click/nfe-projeto-acbr",
+          "description": "Компоненты торговой автоматизации для Delphi и Lazarus с NF-e, NFC-e, NFS-e, CT-e и SPED.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "ACBr no GitHub",
+          "url": "https://github.com/frones/ACBr",
+          "link": "https://go.mymarketing.click/nfe-acbr-no-github",
+          "description": "Зеркало репозитория SVN проекта ACBr.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "apis",
+      "title": "API для выпуска документов",
+      "items": [
+        {
+          "name": "eNotas",
+          "url": "https://enotas.com.br/",
+          "link": "https://go.mymarketing.click/nfe-enotas",
+          "description": "Автоматический выпуск NFS-e и NF-e для тех, кто продаёт онлайн.",
+          "tags": [
+            "pago",
+            "api"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Focus NFe",
+          "url": "https://doc.focusnfe.com.br/reference/introducao",
+          "link": "https://go.mymarketing.click/nfe-focus-nfe",
+          "description": "API для NF-e, NFC-e, NFS-e, CT-e и MDF-e.",
+          "tags": [
+            "pago",
+            "api"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "NFE.io",
+          "url": "https://nfe.io/docs/",
+          "link": "https://go.mymarketing.click/nfe-nfe-io",
+          "description": "API для выпуска NFS-e и NF-e и запроса налоговых данных.",
+          "tags": [
+            "pago",
+            "api"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "PlugNotas",
+          "url": "https://docs.plugnotas.com.br/",
+          "link": "https://go.mymarketing.click/nfe-plugnotas",
+          "description": "API от Tecnospeed для NF-e, NFC-e и NFS-e в тысячах муниципалитетов.",
+          "tags": [
+            "pago",
+            "api"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Qive",
+          "url": "https://qive.com.br/",
+          "link": "https://go.mymarketing.click/nfe-qive",
+          "description": "Получение и управление полученными налоговыми накладными, ранее назывался Arquivei.",
+          "tags": [
+            "pago",
+            "api"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Webmania",
+          "url": "https://webmaniabr.com/docs/rest-api-nfe/",
+          "link": "https://go.mymarketing.click/nfe-webmania",
+          "description": "REST API для NF-e, NFC-e и NFS-e.",
+          "tags": [
+            "pago",
+            "api"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "title": "MCP-серверы",
+      "items": [
+        {
+          "name": "mcp-fiscal-brasil",
+          "url": "https://github.com/DeHor-Labs/mcp-fiscal-brasil",
+          "link": "https://go.mymarketing.click/nfe-mcp-fiscal-brasil",
+          "description": "Налоговый MCP-сервер: CNPJ, NF-e, NFS-e, CT-e, SPED, eSocial и Simples Nacional.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "outras-listas",
+      "title": "Другие списки",
+      "items": [
+        {
+          "name": "Awesome MCP Brasil",
+          "url": "https://github.com/ciro-maciel/awesome-mcp-brasil",
+          "link": "https://go.mymarketing.click/nfe-awesome-mcp-brasil",
+          "description": "MCP-серверы для бразильских сервисов, в том числе налоговых.",
+          "tags": [
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    }
+  ]
+}

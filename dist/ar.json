@@ -1,0 +1,471 @@
+{
+  "slug": "awesome-nfe",
+  "language": "ar",
+  "title": "Awesome NF-e",
+  "description": "قائمة الفواتير الإلكترونية للمطورين: بوابات رسمية، مكتبات حسب لغة البرمجة، واجهات إصدار وخوادم MCP.",
+  "updated": "2026-11-10",
+  "categories": [
+    {
+      "id": "oficial",
+      "title": "البوابات الرسمية",
+      "items": [
+        {
+          "name": "Portal Nacional da NF-e",
+          "url": "https://www.nfe.fazenda.gov.br/portal/principal.aspx",
+          "link": "https://go.mymarketing.click/nfe-portal-nacional-da-nf-e",
+          "description": "أدلة الإرشاد، ومخططات XML، والملاحظات الفنية، والاستعلام عن NF-e.",
+          "tags": [
+            "oficial",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "NFS-e Nacional",
+          "url": "https://www.gov.br/nfse/pt-br",
+          "link": "https://go.mymarketing.click/nfe-nfs-e-nacional",
+          "description": "المعيار الوطني لفاتورة الخدمات، مع الجهة المُصدِرة العامة وبيئة البيانات.",
+          "tags": [
+            "oficial",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "NFS-e Nacional: documentação técnica",
+          "url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica",
+          "link": "https://go.mymarketing.click/nfe-nfs-e-nacional-documentacao-tecnica",
+          "description": "أدلة وتخطيطات وواجهات برمجة تطبيقات NFS-e الوطنية لمن يتكامل معها.",
+          "tags": [
+            "oficial",
+            "gratis",
+            "api"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Portal da NFC-e",
+          "url": "https://dfe-portal.svrs.rs.gov.br/Nfce",
+          "link": "https://go.mymarketing.click/nfe-portal-da-nfc-e",
+          "description": "توثيق فاتورة المستهلك على بوابة SVRS، المستخدمة من عدة ولايات.",
+          "tags": [
+            "oficial",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Portal Nacional do CT-e",
+          "url": "https://www.cte.fazenda.gov.br/portal/",
+          "link": "https://go.mymarketing.click/nfe-portal-nacional-do-ct-e",
+          "description": "أدلة ومخططات مستند النقل الإلكتروني.",
+          "tags": [
+            "oficial",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Portal do MDF-e",
+          "url": "https://dfe-portal.svrs.rs.gov.br/Mdfe",
+          "link": "https://go.mymarketing.click/nfe-portal-do-mdf-e",
+          "description": "توثيق بيان المستندات الضريبية الإلكتروني.",
+          "tags": [
+            "oficial",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Portal do SPED",
+          "url": "http://sped.rfb.gov.br/",
+          "link": "https://go.mymarketing.click/nfe-portal-do-sped",
+          "description": "نظام التدوين الرقمي العام للإيرادات الفيدرالية: EFD وECD وECF وبرامج التحقق.",
+          "tags": [
+            "oficial",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "php",
+      "title": "مكتبات PHP",
+      "items": [
+        {
+          "name": "sped-nfe",
+          "url": "https://github.com/nfephp-org/sped-nfe",
+          "link": "https://go.mymarketing.click/nfe-sped-nfe",
+          "description": "المكتبة الأكثر استخداماً لإنشاء NF-e وNFC-e وتوقيعها وإرسالها إلى SEFAZ.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "sped-common",
+          "url": "https://github.com/nfephp-org/sped-common",
+          "link": "https://go.mymarketing.click/nfe-sped-common",
+          "description": "الفئات الشائعة لـ NFePHP من أجل NF-e وCT-e وMDF-e: الشهادة والتوقيع والتواصل.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "nfse-php",
+          "url": "https://github.com/nfse-nacional/nfse-php",
+          "link": "https://go.mymarketing.click/nfe-nfse-php",
+          "description": "حزمة تطوير PHP لـ NFS-e الوطنية.",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "php-nfse",
+          "url": "https://github.com/lucas-simoes/php-nfse",
+          "link": "https://go.mymarketing.click/nfe-php-nfse",
+          "description": "إنشاء NFS-e والتواصل مع البلديات.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Cliente PHP da NFE.io",
+          "url": "https://github.com/nfe/client-php",
+          "link": "https://go.mymarketing.click/nfe-cliente-php-da-nfe-io",
+          "description": "حزمة تطوير PHP من NFE.io لإصدار NFS-e بلا اعتماديات.",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "java",
+      "title": "مكتبات Java",
+      "items": [
+        {
+          "name": "Java_NFe",
+          "url": "https://github.com/Samuel-Oliveira/Java_NFe",
+          "link": "https://go.mymarketing.click/nfe-java-nfe",
+          "description": "NF-e وNFC-e في Java، مع الاستعلام والإرسال والإلغاء والأحداث.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "wmixvideo/nfe",
+          "url": "https://github.com/wmixvideo/nfe",
+          "link": "https://go.mymarketing.click/nfe-wmixvideo-nfe",
+          "description": "الفاتورة الإلكترونية في Java، مع نموذج البيانات الكامل.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "dotnet",
+      "title": "مكتبات .NET",
+      "items": [
+        {
+          "name": "DFe.NET",
+          "url": "https://github.com/ZeusAutomacao/DFe.NET",
+          "link": "https://go.mymarketing.click/nfe-dfe-net",
+          "description": "إنشاء NF-e وNFC-e واستهلاك خدمات SEFAZ بلغة C#.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "ZeusFiscal",
+          "url": "https://github.com/Hercules-NET/ZeusFiscal",
+          "link": "https://go.mymarketing.click/nfe-zeusfiscal",
+          "description": "إصدار وطباعة NF-e وNFC-e وMDF-e وCT-e بلغة C#.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Unimake DFe",
+          "url": "https://github.com/Unimake/DFe",
+          "link": "https://go.mymarketing.click/nfe-unimake-dfe",
+          "description": "DLL لدمج ERP مع المستندات الضريبية الإلكترونية.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "OpenAC.Net.NFSe",
+          "url": "https://github.com/OpenAC-Net/OpenAC.Net.NFSe",
+          "link": "https://go.mymarketing.click/nfe-openac-net-nfse",
+          "description": "إصدار وإرسال NFS-e لعدة معايير بلدية.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "OpenAC.Net.NFSe.Nacional",
+          "url": "https://github.com/OpenAC-Net/OpenAC.Net.NFSe.Nacional",
+          "link": "https://go.mymarketing.click/nfe-openac-net-nfse-nacional",
+          "description": "إصدار NFS-e بالمعيار الوطني بلغة C#.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "python",
+      "title": "مكتبات Python",
+      "items": [
+        {
+          "name": "PyNFe",
+          "url": "https://github.com/TadaSoftware/PyNFe",
+          "link": "https://go.mymarketing.click/nfe-pynfe",
+          "description": "واجهة لخدمة الويب الخاصة بـ NF-e وNFC-e في Python.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "nfelib",
+          "url": "https://github.com/akretion/nfelib",
+          "link": "https://go.mymarketing.click/nfe-nfelib",
+          "description": "ربطات Python لقراءة وإنشاء XML الخاص بـ NF-e وNFS-e الوطنية وCT-e وMDF-e وBP-e.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Localização brasileira do Odoo",
+          "url": "https://github.com/OCA/l10n-brazil",
+          "link": "https://go.mymarketing.click/nfe-localizacao-brasileira-do-odoo",
+          "description": "الوحدات الضريبية البرازيلية في Odoo، بما فيها NF-e.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "javascript",
+      "title": "مكتبات JavaScript وTypeScript",
+      "items": [
+        {
+          "name": "NFeWizard",
+          "url": "https://github.com/nfewizard-org/nfewizard-io",
+          "link": "https://go.mymarketing.click/nfe-nfewizard",
+          "description": "مكتبة Node.js لخدمات SEFAZ: الإصدار والاستعلام والأحداث وDANFE.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "node-sped-nfe",
+          "url": "https://github.com/kalmonv/node-sped-nfe",
+          "link": "https://go.mymarketing.click/nfe-node-sped-nfe",
+          "description": "إصدار NF-e والتواصل مع SEFAZ في Node.js.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Cliente Node.js da NFE.io",
+          "url": "https://github.com/nfe/client-nodejs",
+          "link": "https://go.mymarketing.click/nfe-cliente-node-js-da-nfe-io",
+          "description": "حزمة تطوير TypeScript من NFE.io لإصدار NFS-e بلا اعتماديات.",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "pascal",
+      "title": "Delphi وLazarus",
+      "items": [
+        {
+          "name": "Projeto ACBr",
+          "url": "https://projetoacbr.com.br/",
+          "link": "https://go.mymarketing.click/nfe-projeto-acbr",
+          "description": "مكونات الأتمتة التجارية لـ Delphi وLazarus، مع NF-e وNFC-e وNFS-e وCT-e وSPED.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "ACBr no GitHub",
+          "url": "https://github.com/frones/ACBr",
+          "link": "https://go.mymarketing.click/nfe-acbr-no-github",
+          "description": "مرآة مستودع SVN الخاص بمشروع ACBr.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "apis",
+      "title": "واجهات برمجة تطبيقات الإصدار",
+      "items": [
+        {
+          "name": "eNotas",
+          "url": "https://enotas.com.br/",
+          "link": "https://go.mymarketing.click/nfe-enotas",
+          "description": "إصدار تلقائي لفواتير NFS-e وNF-e لمن يبيع عبر الإنترنت.",
+          "tags": [
+            "pago",
+            "api"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Focus NFe",
+          "url": "https://doc.focusnfe.com.br/reference/introducao",
+          "link": "https://go.mymarketing.click/nfe-focus-nfe",
+          "description": "واجهة برمجة تطبيقات لـ NF-e وNFC-e وNFS-e وCT-e وMDF-e.",
+          "tags": [
+            "pago",
+            "api"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "NFE.io",
+          "url": "https://nfe.io/docs/",
+          "link": "https://go.mymarketing.click/nfe-nfe-io",
+          "description": "واجهة برمجة تطبيقات لإصدار NFS-e وNF-e واستعلام البيانات الضريبية.",
+          "tags": [
+            "pago",
+            "api"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "PlugNotas",
+          "url": "https://docs.plugnotas.com.br/",
+          "link": "https://go.mymarketing.click/nfe-plugnotas",
+          "description": "واجهة برمجة تطبيقات من Tecnospeed لـ NF-e وNFC-e وNFS-e في آلاف البلديات.",
+          "tags": [
+            "pago",
+            "api"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Qive",
+          "url": "https://qive.com.br/",
+          "link": "https://go.mymarketing.click/nfe-qive",
+          "description": "التقاط الفواتير الواردة وإدارتها، وكانت تُعرف سابقًا باسم Arquivei.",
+          "tags": [
+            "pago",
+            "api"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Webmania",
+          "url": "https://webmaniabr.com/docs/rest-api-nfe/",
+          "link": "https://go.mymarketing.click/nfe-webmania",
+          "description": "واجهة برمجة تطبيقات REST لـ NF-e وNFC-e وNFS-e.",
+          "tags": [
+            "pago",
+            "api"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "title": "خوادم MCP",
+      "items": [
+        {
+          "name": "mcp-fiscal-brasil",
+          "url": "https://github.com/DeHor-Labs/mcp-fiscal-brasil",
+          "link": "https://go.mymarketing.click/nfe-mcp-fiscal-brasil",
+          "description": "خادم MCP ضريبي: CNPJ وNF-e وNFS-e وCT-e وSPED وeSocial وSimples Nacional.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "outras-listas",
+      "title": "قوائم أخرى",
+      "items": [
+        {
+          "name": "Awesome MCP Brasil",
+          "url": "https://github.com/ciro-maciel/awesome-mcp-brasil",
+          "link": "https://go.mymarketing.click/nfe-awesome-mcp-brasil",
+          "description": "خوادم MCP للخدمات البرازيلية، بما فيها الضريبية.",
+          "tags": [
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    }
+  ]
+}

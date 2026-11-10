@@ -1,0 +1,471 @@
+{
+  "slug": "awesome-nfe",
+  "language": "de",
+  "title": "Awesome NF-e",
+  "description": "Elektronische Rechnung (NF-e) für Entwickler: offizielle Portale, Bibliotheken nach Programmiersprache, Ausstellungs-APIs und MCP-Server.",
+  "updated": "2026-11-10",
+  "categories": [
+    {
+      "id": "oficial",
+      "title": "Offizielle Portale",
+      "items": [
+        {
+          "name": "Portal Nacional da NF-e",
+          "url": "https://www.nfe.fazenda.gov.br/portal/principal.aspx",
+          "link": "https://go.mymarketing.click/nfe-portal-nacional-da-nf-e",
+          "description": "Anleitungen, XML-Schemas, technische Hinweise und die Abfrage der NF-e.",
+          "tags": [
+            "oficial",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "NFS-e Nacional",
+          "url": "https://www.gov.br/nfse/pt-br",
+          "link": "https://go.mymarketing.click/nfe-nfs-e-nacional",
+          "description": "Der nationale Standard für die Dienstleistungsrechnung mit öffentlichem Aussteller und Datenumgebung.",
+          "tags": [
+            "oficial",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "NFS-e Nacional: documentação técnica",
+          "url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica",
+          "link": "https://go.mymarketing.click/nfe-nfs-e-nacional-documentacao-tecnica",
+          "description": "Handbücher, Layouts und APIs der NFS-e Nacional für Integratoren.",
+          "tags": [
+            "oficial",
+            "gratis",
+            "api"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Portal da NFC-e",
+          "url": "https://dfe-portal.svrs.rs.gov.br/Nfce",
+          "link": "https://go.mymarketing.click/nfe-portal-da-nfc-e",
+          "description": "Dokumentation der Verbraucherrechnung im Portal der SVRS, von mehreren Bundesstaaten genutzt.",
+          "tags": [
+            "oficial",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Portal Nacional do CT-e",
+          "url": "https://www.cte.fazenda.gov.br/portal/",
+          "link": "https://go.mymarketing.click/nfe-portal-nacional-do-ct-e",
+          "description": "Handbücher und Schemas des elektronischen Transportdokuments (CT-e).",
+          "tags": [
+            "oficial",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Portal do MDF-e",
+          "url": "https://dfe-portal.svrs.rs.gov.br/Mdfe",
+          "link": "https://go.mymarketing.click/nfe-portal-do-mdf-e",
+          "description": "Dokumentation des elektronischen Manifests zu Steuerdokumenten (MDF-e).",
+          "tags": [
+            "oficial",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Portal do SPED",
+          "url": "http://sped.rfb.gov.br/",
+          "link": "https://go.mymarketing.click/nfe-portal-do-sped",
+          "description": "Das öffentliche digitale Buchführungssystem der Receita Federal: EFD, ECD, ECF und Prüfprogramme.",
+          "tags": [
+            "oficial",
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "php",
+      "title": "PHP-Bibliotheken",
+      "items": [
+        {
+          "name": "sped-nfe",
+          "url": "https://github.com/nfephp-org/sped-nfe",
+          "link": "https://go.mymarketing.click/nfe-sped-nfe",
+          "description": "Die meistgenutzte Bibliothek zum Erzeugen, Signieren und Übermitteln von NF-e und NFC-e an die SEFAZ.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "sped-common",
+          "url": "https://github.com/nfephp-org/sped-common",
+          "link": "https://go.mymarketing.click/nfe-sped-common",
+          "description": "Die gemeinsamen Klassen von NFePHP für NF-e, CT-e und MDF-e: Zertifikat, Signatur und Kommunikation.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "nfse-php",
+          "url": "https://github.com/nfse-nacional/nfse-php",
+          "link": "https://go.mymarketing.click/nfe-nfse-php",
+          "description": "PHP-SDK für die NFS-e Nacional.",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "php-nfse",
+          "url": "https://github.com/lucas-simoes/php-nfse",
+          "link": "https://go.mymarketing.click/nfe-php-nfse",
+          "description": "Erzeugung und Kommunikation von NFS-e mit den Kommunen.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Cliente PHP da NFE.io",
+          "url": "https://github.com/nfe/client-php",
+          "link": "https://go.mymarketing.click/nfe-cliente-php-da-nfe-io",
+          "description": "PHP-SDK der NFE.io zum Ausstellen von NFS-e, ohne Abhängigkeiten.",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "java",
+      "title": "Java-Bibliotheken",
+      "items": [
+        {
+          "name": "Java_NFe",
+          "url": "https://github.com/Samuel-Oliveira/Java_NFe",
+          "link": "https://go.mymarketing.click/nfe-java-nfe",
+          "description": "NF-e und NFC-e in Java, mit Abfrage, Versand, Stornierung und Ereignissen.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "wmixvideo/nfe",
+          "url": "https://github.com/wmixvideo/nfe",
+          "link": "https://go.mymarketing.click/nfe-wmixvideo-nfe",
+          "description": "Elektronische Rechnung in Java, mit vollständigem Datenmodell.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "dotnet",
+      "title": "NET-Bibliotheken",
+      "items": [
+        {
+          "name": "DFe.NET",
+          "url": "https://github.com/ZeusAutomacao/DFe.NET",
+          "link": "https://go.mymarketing.click/nfe-dfe-net",
+          "description": "Erzeugung von NF-e und NFC-e sowie Nutzung der Dienste der SEFAZ in C#.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "ZeusFiscal",
+          "url": "https://github.com/Hercules-NET/ZeusFiscal",
+          "link": "https://go.mymarketing.click/nfe-zeusfiscal",
+          "description": "Ausstellung und Druck von NF-e, NFC-e, MDF-e und CT-e in C#.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Unimake DFe",
+          "url": "https://github.com/Unimake/DFe",
+          "link": "https://go.mymarketing.click/nfe-unimake-dfe",
+          "description": "DLL zur Anbindung von ERPs an elektronische Steuerdokumente.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "OpenAC.Net.NFSe",
+          "url": "https://github.com/OpenAC-Net/OpenAC.Net.NFSe",
+          "link": "https://go.mymarketing.click/nfe-openac-net-nfse",
+          "description": "Ausstellung und Übermittlung von NFS-e für verschiedene kommunale Standards.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "OpenAC.Net.NFSe.Nacional",
+          "url": "https://github.com/OpenAC-Net/OpenAC.Net.NFSe.Nacional",
+          "link": "https://go.mymarketing.click/nfe-openac-net-nfse-nacional",
+          "description": "Ausstellung von NFS-e im nationalen Standard in C#.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "python",
+      "title": "Python-Bibliotheken",
+      "items": [
+        {
+          "name": "PyNFe",
+          "url": "https://github.com/TadaSoftware/PyNFe",
+          "link": "https://go.mymarketing.click/nfe-pynfe",
+          "description": "Schnittstelle zum Webservice der NF-e und der NFC-e in Python.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "nfelib",
+          "url": "https://github.com/akretion/nfelib",
+          "link": "https://go.mymarketing.click/nfe-nfelib",
+          "description": "Python-Bindings zum Lesen und Erzeugen des XML von NF-e, NFS-e Nacional, CT-e, MDF-e und BP-e.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Localização brasileira do Odoo",
+          "url": "https://github.com/OCA/l10n-brazil",
+          "link": "https://go.mymarketing.click/nfe-localizacao-brasileira-do-odoo",
+          "description": "Die brasilianischen Steuermodule von Odoo, einschließlich NF-e.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "javascript",
+      "title": "JavaScript- und TypeScript-Bibliotheken",
+      "items": [
+        {
+          "name": "NFeWizard",
+          "url": "https://github.com/nfewizard-org/nfewizard-io",
+          "link": "https://go.mymarketing.click/nfe-nfewizard",
+          "description": "Node.js-Bibliothek für die Dienste der SEFAZ: Ausstellung, Abfrage, Ereignisse und DANFE.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "node-sped-nfe",
+          "url": "https://github.com/kalmonv/node-sped-nfe",
+          "link": "https://go.mymarketing.click/nfe-node-sped-nfe",
+          "description": "Ausstellung und Kommunikation von NF-e mit der SEFAZ in Node.js.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Cliente Node.js da NFE.io",
+          "url": "https://github.com/nfe/client-nodejs",
+          "link": "https://go.mymarketing.click/nfe-cliente-node-js-da-nfe-io",
+          "description": "TypeScript-SDK der NFE.io zum Ausstellen von NFS-e, ohne Abhängigkeiten.",
+          "tags": [
+            "codigo-aberto",
+            "sdk"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "pascal",
+      "title": "Delphi und Lazarus",
+      "items": [
+        {
+          "name": "Projeto ACBr",
+          "url": "https://projetoacbr.com.br/",
+          "link": "https://go.mymarketing.click/nfe-projeto-acbr",
+          "description": "Komponenten für die Handelsautomation in Delphi und Lazarus, mit NF-e, NFC-e, NFS-e, CT-e und SPED.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "ACBr no GitHub",
+          "url": "https://github.com/frones/ACBr",
+          "link": "https://go.mymarketing.click/nfe-acbr-no-github",
+          "description": "Spiegel des SVN-Repositorys des ACBr-Projekts.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "apis",
+      "title": "Ausstellungs-APIs",
+      "items": [
+        {
+          "name": "eNotas",
+          "url": "https://enotas.com.br/",
+          "link": "https://go.mymarketing.click/nfe-enotas",
+          "description": "Automatische Ausstellung von NFS-e und NF-e für Online-Händler.",
+          "tags": [
+            "pago",
+            "api"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Focus NFe",
+          "url": "https://doc.focusnfe.com.br/reference/introducao",
+          "link": "https://go.mymarketing.click/nfe-focus-nfe",
+          "description": "API für NF-e, NFC-e, NFS-e, CT-e und MDF-e.",
+          "tags": [
+            "pago",
+            "api"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "NFE.io",
+          "url": "https://nfe.io/docs/",
+          "link": "https://go.mymarketing.click/nfe-nfe-io",
+          "description": "API für die Ausstellung von NFS-e und NF-e sowie Abfrage von Steuerdaten.",
+          "tags": [
+            "pago",
+            "api"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "PlugNotas",
+          "url": "https://docs.plugnotas.com.br/",
+          "link": "https://go.mymarketing.click/nfe-plugnotas",
+          "description": "Tecnospeed-API für NF-e, NFC-e und NFS-e in Tausenden von Gemeinden.",
+          "tags": [
+            "pago",
+            "api"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Qive",
+          "url": "https://qive.com.br/",
+          "link": "https://go.mymarketing.click/nfe-qive",
+          "description": "Erfassung und Verwaltung eingegangener Rechnungen, früher Arquivei genannt.",
+          "tags": [
+            "pago",
+            "api"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        },
+        {
+          "name": "Webmania",
+          "url": "https://webmaniabr.com/docs/rest-api-nfe/",
+          "link": "https://go.mymarketing.click/nfe-webmania",
+          "description": "REST-API für NF-e, NFC-e und NFS-e.",
+          "tags": [
+            "pago",
+            "api"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "title": "MCP-Server",
+      "items": [
+        {
+          "name": "mcp-fiscal-brasil",
+          "url": "https://github.com/DeHor-Labs/mcp-fiscal-brasil",
+          "link": "https://go.mymarketing.click/nfe-mcp-fiscal-brasil",
+          "description": "Steuerlicher MCP-Server: CNPJ, NF-e, NFS-e, CT-e, SPED, eSocial und Simples Nacional.",
+          "tags": [
+            "codigo-aberto"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "outras-listas",
+      "title": "Weitere Listen",
+      "items": [
+        {
+          "name": "Awesome MCP Brasil",
+          "url": "https://github.com/ciro-maciel/awesome-mcp-brasil",
+          "link": "https://go.mymarketing.click/nfe-awesome-mcp-brasil",
+          "description": "MCP-Server für brasilianische Dienste, auch steuerliche.",
+          "tags": [
+            "gratis"
+          ],
+          "ours": false,
+          "added": "2026-11-10"
+        }
+      ]
+    }
+  ]
+}
